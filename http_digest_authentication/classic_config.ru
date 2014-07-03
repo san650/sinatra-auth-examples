@@ -1,4 +1,4 @@
-require File.expand_path("../server.rb", __FILE__)
+require File.expand_path("../classic.rb", __FILE__)
 
 app = Rack::Auth::Digest::MD5.new(Sinatra::Application) do |username|
   { "foo" => "bar"}[username]
