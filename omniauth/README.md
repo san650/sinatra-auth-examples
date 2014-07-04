@@ -8,3 +8,8 @@
    Create a github app (https://github.com/settings/applications/new)
    `GITHUB_KEY=17c...f4 GITHUB_SECRET=703e...36149 bundle ex ruby github.rb`
    Visit `http://localhost:4567/auth/github`
+
+3. Authorization example
+   Create a github app (https://github.com/settings/applications/new)
+   `GITHUB_KEY=17c...f4 GITHUB_SECRET=703e...36149 bundle ex ruby authorization.rb`
+   Visit `http://localhost:4567/`
