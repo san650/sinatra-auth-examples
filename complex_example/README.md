@@ -13,3 +13,10 @@ $ foreman start
 ```
 
 Navigate to http://localhost:5000/
+
+To run the tests
+
+```
+$ ruby -Iapp test/admin_test.rb
+$ ruby -Iapp test/public_test.rb
+```

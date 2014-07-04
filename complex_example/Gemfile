@@ -10,3 +10,5 @@ gem "omniauth-google-oauth2"
 
 gem "foreman"
 gem "thin"
+
+gem "minitest"
