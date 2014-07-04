@@ -4,6 +4,7 @@ ruby "2.0.0"
 gem "sinatra"
 gem "omniauth"
 gem "omniauth-github"
+gem "omniauth-facebook"
 
 gem "foreman"
 gem "thin"
