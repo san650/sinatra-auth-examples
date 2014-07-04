@@ -2,6 +2,7 @@ require "omniauth"
 require "omniauth/strategies/github"
 require "omniauth/strategies/facebook"
 require "omniauth/strategies/twitter"
+require "omniauth/strategies/google_oauth2"
 
 class Auth < Protected
 
@@ -10,6 +11,7 @@ class Auth < Protected
     provider :github, ENV["GITHUB_KEY"], ENV["GITHUB_SECRET"]
     provider :facebook, ENV["FACEBOOK_KEY"], ENV["FACEBOOK_SECRET"]
     provider :twitter, ENV["TWITTER_KEY"], ENV["TWITTER_SECRET"]
+    provider :google_oauth2, ENV["GOOGLE_KEY"], ENV["GOOGLE_SECRET"]
   end
 
   get "/" do
