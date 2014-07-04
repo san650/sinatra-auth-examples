@@ -1,6 +1,7 @@
 require "omniauth"
 require "omniauth/strategies/github"
 require "omniauth/strategies/facebook"
+require "omniauth/strategies/twitter"
 
 class Auth < Protected
 
@@ -8,6 +9,7 @@ class Auth < Protected
     provider :developer, callback_path: "/login/auth/developer/callback"
     provider :github, ENV["GITHUB_KEY"], ENV["GITHUB_SECRET"]
     provider :facebook, ENV["FACEBOOK_KEY"], ENV["FACEBOOK_SECRET"]
+    provider :twitter, ENV["TWITTER_KEY"], ENV["TWITTER_SECRET"]
   end
 
   get "/" do
