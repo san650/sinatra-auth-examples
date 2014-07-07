@@ -1,7 +1,6 @@
-require "minitest/autorun"
+require "test_helper"
 require "rack/test"
 require "public"
-
 
 class PublicTest < Minitest::Test
   include Rack::Test::Methods

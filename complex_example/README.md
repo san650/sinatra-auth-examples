@@ -12,11 +12,10 @@ To run the application
 $ foreman start
 ```
 
-Navigate to http://localhost:5000/
+Navigate to `http://localhost:5000/`
 
 To run the tests
 
 ```
-$ ruby -Iapp test/admin_test.rb
-$ ruby -Iapp test/public_test.rb
+$ bundle ex rake test
 ```

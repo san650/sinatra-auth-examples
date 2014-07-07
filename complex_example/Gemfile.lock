@@ -13,6 +13,7 @@ GEM
       thor (~> 0.19.1)
     hashie (2.1.2)
     jwt (1.0.0)
+    minitest (5.3.4)
     multi_json (1.10.1)
     multi_xml (0.5.5)
     multipart-post (2.0.0)
@@ -48,6 +49,7 @@ GEM
     rack (1.5.2)
     rack-protection (1.5.3)
       rack
+    rake (10.3.2)
     sinatra (1.4.5)
       rack (~> 1.4)
       rack-protection (~> 1.4)
@@ -64,10 +66,12 @@ PLATFORMS
 
 DEPENDENCIES
   foreman
+  minitest
   omniauth
   omniauth-facebook
   omniauth-github
   omniauth-google-oauth2
   omniauth-twitter
+  rake
   sinatra
   thin
